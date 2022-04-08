@@ -1,0 +1,113 @@
+.minBtn {
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+    top: 10px;
+    right: 55px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px
+}
+
+.closeBtn {
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+    top: 10px;
+    right: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px
+}
+
+.closeBtn {
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+    top: 10px;
+    right: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px
+}
+
+.backBtn {
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+    top: 10px;
+    left: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    -webkit-app-region: drag;
+}
+
+.content-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    /* justify-content: center; */
+}
+
+video {
+    object-fit: cover;
+    width: 100%;
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.game-title {
+    color: white;
+    font-size: 40px;
+    /* text-decoration: underline; */
+}
+
+.MenuBtn {
+    -webkit-app-region: no-drag;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: white;
+}
+
+.MenuBtn:hover {
+    -webkit-app-region: no-drag;
+    background: none;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+}
+
+.deveSignature {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+}
